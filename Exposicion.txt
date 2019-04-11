@@ -1,0 +1,37 @@
+problematica actual 
+la orden de la ejecucion de los scritps, no se tiene un control sobre quien esta realizando los cambios, 
+Adecuar los scritps para cada version de bd
+No existe una integración continua para bd
+Se pierde el control de db entre ambientes
+No existe versionamiento de bd
+Se repiten los cambios en el equipo 
+
+Solucion
+Control de quien, cuando, donde y relacionrlo al ISSUE
+SQL estandar para hacer facil la integracion 
+Tablas de control de los scripts ya ejecutados y los pendientes
+Genera un mapa de db para hacer las modificaciones por bloques.
+Versionar los scripts dentro del repositorio del código
+
+
+Liquibase
+Es un control de versiones, desarrollo opensource, escrito en java, licencia Apache 2.0, administracion y apliacion de los cambios.
+
+Caracteristicas. 
+Es una acutalizacion automatica de base de datos
+revicion de cambios en bd
+Independiente de cualquier Independiente
+Analisis de diferencias entre base de datosSoporte multi-base de datosFáciul integración con Frameworks
+
+Soportadas
+Mysql
+PostgreSQL
+Oracle
+SQL Serve
+Sybase_Entreprise
+Sybase_Anywehre
+SQLLite
+
+Tablas de control 
+DATABASECHANGELOG
+DATABASECHANGELOGLOCK
